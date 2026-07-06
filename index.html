@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION HEADER -->
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#interests" class="nav-link">Interests</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#journal" class="nav-link">Journal</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm [YOUR NAME]</h1>
+            <p class="hero-subtitle">College Student | Learner | Creator</p>
+            <p class="hero-description">Welcome to my personal website! Here you'll find my projects, interests, and what I'm learning.</p>
+            <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Explore My Work</button>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p><strong>Grade/Year:</strong> [YOUR GRADE]</p>
+                    <p>I'm a passionate learner exploring new technologies and creative ideas. I enjoy building projects, solving problems, and sharing what I learn with others.</p>
+                    <div class="achievement">
+                        <h3>I'm Proud Of:</h3>
+                        <p>[ONE THING]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERESTS SECTION -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <h2 class="section-title">My Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon">🎓</div>
+                    <p>[YOUR INTERESTS]</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">💡</div>
+                    <p>Learning & Growth</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">🚀</div>
+                    <p>Building Cool Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">📱</div>
+                    <h3>Project 1</h3>
+                    <p>[YOUR PROJECTS] - A project I'm working on to learn and grow.</p>
+                    <div class="project-tags">
+                        <span class="tag">Learning</span>
+                        <span class="tag">Web</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">🎨</div>
+                    <h3>Project 2</h3>
+                    <p>An exciting project showcasing my creativity and skills.</p>
+                    <div class="project-tags">
+                        <span class="tag">Design</span>
+                        <span class="tag">Interactive</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">⚙️</div>
+                    <h3>Project 3</h3>
+                    <p>A technical project where I applied my problem-solving skills.</p>
+                    <div class="project-tags">
+                        <span class="tag">Code</span>
+                        <span class="tag">Challenge</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEARNING JOURNAL SECTION -->
+    <section id="journal" class="journal">
+        <div class="container">
+            <h2 class="section-title">What I'm Learning</h2>
+            <div class="journal-content">
+                <div class="journal-item">
+                    <div class="journal-date">Today</div>
+                    <h3>My Learning Goals</h3>
+                    <p><strong>Next Thing I Want to Learn:</strong> [ONE THING]</p>
+                    <p>I'm excited to dive into this and expand my skills!</p>
+                </div>
+                <div class="journal-item">
+                    <div class="journal-date">Progress</div>
+                    <h3>Current Focus</h3>
+                    <p>Building my portfolio and learning web development fundamentals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <p>Feel free to reach out if you'd like to chat or collaborate!</p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-btn">📧 Email Me</a>
+                    <a href="https://linkedin.com" target="_blank" class="contact-btn">💼 LinkedIn</a>
+                    <a href="https://github.com" target="_blank" class="contact-btn">🐙 GitHub</a>
+                    <a href="https://twitter.com" target="_blank" class="contact-btn">🐦 Twitter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2025 [YOUR NAME]. All rights reserved. | Built with passion 💜</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
